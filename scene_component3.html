@@ -5,15 +5,18 @@
   </head>
   <body>
     <script>
-        AFRAME.registerComponent('hello', {
-    schema: {
-        message: {type: 'string', default: 'Hello!'}
-      },
+            AFRAME.registerComponent('hello', {
+        schema: {
+            message: {type: 'string', default: 'Hello!'}
+            message2: {type: 'string', default: 'hola hola!'}
 
-    init: function () {
-        console.log(this.data.message);
-    }
-  });
+        },
+
+        init: function () {
+            console.log(this.data.message);
+            console.log(this.data.message2);
+        }
+    });
       </script>
     <a-scene background="color: #ECECEC">
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"
