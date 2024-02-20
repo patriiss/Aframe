@@ -1,5 +1,2 @@
 aframe-playground
-
-t
-
 Detailed documentation in the A-Frame tutorial --> https://aframe.io/docs/1.5.0/introduction/writing-a-component.html
