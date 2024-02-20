@@ -7,14 +7,14 @@
     <script>
             AFRAME.registerComponent('hello', {
         schema: {
-            message: {type: 'string', default: 'Hello!'}
-            message2: {type: 'string', default: 'hola hola!'}
+            message: {type: 'string', default: 'Hello!'};
+            messageDos: {type: 'string', default: 'hola hola!'}
 
         },
 
         init: function () {
             console.log(this.data.message);
-            console.log(this.data.message2);
+            console.log(this.data.messageDos);
         }
     });
       </script>
